@@ -1,11 +1,11 @@
 import './App.css';
-import timetable from './components/timetable'
+import Timetable from './components/timetable'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {timetable}
+        <Timetable />
       </header>
     </div>
   );
